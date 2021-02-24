@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
- 
+
 int comapre(int,int);
 void bubblesort(int,int,int);
 void bubblesort(int *A,int n,int (*compare)(int a,int b))
@@ -20,7 +20,7 @@ void bubblesort(int *A,int n,int (*compare)(int a,int b))
 			}
 		}
 	}
-} 
+}
 int compare(int a,int b)
 {
 	if(a>b){ return -1;}
